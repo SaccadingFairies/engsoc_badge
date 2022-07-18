@@ -104,7 +104,7 @@ engsoc_badge_edbg.vid.0=0x03eb
 engsoc_badge_edbg.pid.0=0x2157
 engsoc_badge_edbg.upload_port.0.vid=0x03eb
 engsoc_badge_edbg.upload_port.0.pid=0x2157
-engsoc_badge_edbg.upload_port.1.board=arduino_zero_edbg
+engsoc_badge_edbg.upload_port.1.board=engsoc_badge_edbg
 
 engsoc_badge_edbg.upload.tool=openocd
 engsoc_badge_edbg.upload.tool.default=openocd
@@ -123,7 +123,7 @@ engsoc_badge_edbg.build.board=SAMD_ZERO
 engsoc_badge_edbg.build.core=arduino
 engsoc_badge_edbg.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
 engsoc_badge_edbg.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
-engsoc_badge_edbg.build.openocdscript=openocd_scripts/arduino_zero.cfg
+engsoc_badge_edbg.build.openocdscript=openocsd_scripts/arduino_zero.cfg
 engsoc_badge_edbg.build.variant=engsoc_badge
 engsoc_badge_edbg.build.variant_system_lib=
 engsoc_badge_edbg.build.vid=0x2341

@@ -91,9 +91,9 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_DAC0             (3ul)
 
 
-#define LED_R (27ul)
-#define LED_G (26ul)
-#define LED_B (25ul)
+#define LED_R (40ul)
+#define LED_G (39ul)
+#define LED_B (38ul)
 
 static const uint8_t A0  = PIN_A0;
 static const uint8_t A1  = PIN_A1;

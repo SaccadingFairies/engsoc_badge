@@ -113,8 +113,8 @@ static const uint8_t ATN = PIN_ATN;
 #define PAD_SERIAL_RX       (SERCOM_RX_PAD_3)
 
 // Serial1
-#define PIN_SERIAL1_RX       (0ul)
-#define PIN_SERIAL1_TX       (1ul)
+#define PIN_SERIAL1_RX       (1ul)
+#define PIN_SERIAL1_TX       (2ul)
 #define PAD_SERIAL1_TX       (UART_TX_PAD_1)
 #define PAD_SERIAL1_RX       (SERCOM_RX_PAD_0)
 

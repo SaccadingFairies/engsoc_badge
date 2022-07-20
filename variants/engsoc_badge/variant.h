@@ -116,7 +116,7 @@ static const uint8_t ATN = PIN_ATN;
 #define PIN_SERIAL1_RX       (0ul)
 #define PIN_SERIAL1_TX       (1ul)
 #define PAD_SERIAL1_TX       (UART_TX_PAD_2)
-#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_3)
+#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_0)
 
 /*
  * SPI Interfaces

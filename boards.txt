@@ -99,7 +99,7 @@ arduino_zero_native.bootloader.file=zero/samd21_sam_ba.bin
 
 ## ENGSOC Badge (Native USB Port)
 # --------------------------------------
-engsoc_badge_native.name=Arduino Zero (Native USB Port)
+engsoc_badge_native.name= ENGSOC Badge (Native USB Port)
 engsoc_badge_native.vid.0=0x2341
 engsoc_badge_native.pid.0=0x804d
 engsoc_badge_native.vid.1=0x2341

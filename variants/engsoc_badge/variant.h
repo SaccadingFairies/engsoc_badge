@@ -82,21 +82,21 @@ extern "C" unsigned int PINCOUNT_fn();
 /*
  * Analog pins
  */
-// #define PIN_A0               (14ul)
-// #define PIN_A1               (15ul)
-// #define PIN_A2               (16ul)
-// #define PIN_A3               (17ul)
-// #define PIN_A4               (18ul)
-// #define PIN_A5               (19ul)
-// #define PIN_DAC0             (14ul)
+#define PIN_A0               (3ul)
+#define PIN_A1               (4ul)
+#define PIN_A2               (9ul)
+#define PIN_A3               (10ul)
+#define PIN_A4               (11ul)
+#define PIN_A5               (12ul)
+#define PIN_DAC0             (3ul)
 
-// static const uint8_t A0  = PIN_A0;
-// static const uint8_t A1  = PIN_A1;
-// static const uint8_t A2  = PIN_A2;
-// static const uint8_t A3  = PIN_A3;
-// static const uint8_t A4  = PIN_A4;
-// static const uint8_t A5  = PIN_A5;
-// static const uint8_t DAC0 = PIN_DAC0;
+static const uint8_t A0  = PIN_A0;
+static const uint8_t A1  = PIN_A1;
+static const uint8_t A2  = PIN_A2;
+static const uint8_t A3  = PIN_A3;
+static const uint8_t A4  = PIN_A4;
+static const uint8_t A5  = PIN_A5;
+static const uint8_t DAC0 = PIN_DAC0;
 #define ADC_RESOLUTION		12
 
 // Other pins

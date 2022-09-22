@@ -1,0 +1,4 @@
+{
+    "board": "Engsoc Badge:samd:arduino_zero_native",
+    "port": "/dev/ttyACM0"
+}
